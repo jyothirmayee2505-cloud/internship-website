@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Somula Jyothirmayee</title>
+  <meta name="description" content="Responsive multi-page website built during a web development internship.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="container nav-bar" aria-label="Main">
+    <a class="brand" href="index.html">Jyothirmayee</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Web pages that fit every screen.</h1>
+        <p>I am Somula Jyothirmayee, a B.Tech CSE student and web development intern at CODTECH IT Solutions. This site shows what I built: semantic HTML, responsive CSS and interactive JavaScript.</p>
+        <a class="btn" href="projects.html">See my work</a>
+        <a class="btn ghost" href="contact.html">Contact me</a>
+      </div>
+      <aside class="viewport" aria-live="polite">
+        <h3>Your screen right now</h3>
+        <p class="vp-width" id="vp-width">0 px</p>
+        <p class="vp-label" id="vp-label">Detecting layout</p>
+        <div class="vp-bar"><span id="vp-bar"></span></div>
+        <p class="vp-label">Resize the window and watch the layout adapt.</p>
+      </aside>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2>What this site demonstrates</h2>
+      <div class="grid">
+        <article class="card"><h3>Semantic HTML5</h3><p>Header, nav, main, section and footer elements give every page a clear, accessible structure.</p></article>
+        <article class="card"><h3>Responsive CSS3</h3><p>Flexbox, Grid and media queries reflow content from phone to widescreen with no sideways scrolling.</p></article>
+        <article class="card"><h3>Interactive JavaScript</h3><p>A collapsing mobile menu and a contact form that explains exactly what to fix.</p></article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Somula Jyothirmayee. Built with HTML5, CSS3 and JavaScript during the CODTECH web development internship.</p>
+    <p><a href="contact.html">Get in touch</a></p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
